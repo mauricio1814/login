@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sesion</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <section>
+      <div class="contenedor">
+        <div class="formulario">
+          <form action="#">
+            <h2>Iniciar Sesion</h2>
+
+            <div class="input-contenedor">
+              <input type="email" required>
+              <label for="#">Email</label>
+            </div>
+            
+            <div class="input-contenedor">
+              <input type="password" required>
+              <label for="#">contraseña</label>
+              </div>
+
+              <div class="input-contenedor1">
+                <label for="role">Rol:</label>
+                <select id="role" name="role">
+                  <option value=""></option>
+                  <option value="usuario">Usuario</option>
+                  <option value="administrador">Administrador</option>
+              </select>
+                </div>
+
+              <div class="olvidar">
+                <label for="#">
+                  <input type="checkbox">Recordar
+                  <a href="#">olvidé la contraseña</a>
+                </label>
+            </div>
+          </form>
+          <button class="btn">Iniciar Sesion</button>
+          <div class="registrar">
+            <p>No tengo Cuenta <a href="#">Crear Una</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+</body>
+</html>
